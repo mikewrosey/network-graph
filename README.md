@@ -6,7 +6,7 @@ opennms graph
 
 ## Install the dependencies
 ```bash
-yarn (or npm install if without yarn)
+yarn (or npm install)
 ```
 
 ### Start the app in development mode (hot-code reloading, error reporting, etc.)
@@ -16,5 +16,10 @@ yarn dev (npm dev)
 
 ### Build the app for production
 ```bash
-quasar build
+yarn build (npm build)
+```
+
+### Testing
+```bash
+yarn test (npm test)
 ```

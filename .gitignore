@@ -4,6 +4,7 @@ node_modules
 .quasar
 /dist
 /public
+/test/jest/coverage
 
 # Log files
 npm-debug.log*

@@ -27,7 +27,7 @@ export default {
     },
     computed: {
         vertices() {
-            return this.$store.getters['Network/getVerticies']
+            return this.$store.getters['Network/getVertices']
         },
         edges() {
             return this.$store.getters['Network/getEdges']

@@ -14,8 +14,8 @@
 </template>
 
 <script>
-import JsonInput from '../components/JsonInput'
-import Graph from '../components/Graph'
+import JsonInput from 'src/components/JsonInput'
+import Graph from 'src/components/Graph'
 export default {
     name: 'MainPage',
         components: {

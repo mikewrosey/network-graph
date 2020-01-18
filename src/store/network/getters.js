@@ -5,7 +5,7 @@ import icons from 'assets/icons'
  * map the json input props to the
  * vue-d3-network name/source/target props
  */
-const getVerticies = state => state.json.vertices.map((x) => {
+const getVertices = state => state.json.vertices.map((x) => {
     return {
         ...x,
         name: x.label,
@@ -22,6 +22,6 @@ const getEdges = state => state.json.edges.map((x) => {
 })
 
 export default {
-    getVerticies,
+    getVertices,
     getEdges
 }

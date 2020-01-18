@@ -4,7 +4,9 @@
   "description": "opennms graph",
   "author": "Mike Rose",
   "scripts": {
-    "dev": "quasar dev"
+    "dev": "quasar dev",
+    "build": "quasar build",
+    "test": "jest"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
@@ -13,7 +15,9 @@
     "vue-json-editor": "^1.4.0"
   },
   "devDependencies": {
-    "@quasar/app": "^1.0.0"
+    "@quasar/app": "^1.0.0",
+    "@quasar/quasar-app-extension-testing": "^1.0.0",
+    "@quasar/quasar-app-extension-testing-unit-jest": "^1.0.0"
   },
   "engines": {
     "node": ">= 10.18.1",
